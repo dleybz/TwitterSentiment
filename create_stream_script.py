@@ -6,10 +6,10 @@ import sys
 #Creates file named "output.json" to store tweets+metadata 
 sys.stdout = open('output.json', 'w')
 
-access_token = "60189429-F4Dx5e1dnaXMGCokXzJSzSRscHGpYFd1gS0QDGPmx"
-access_token_secret = "KD6O4yOW7XgR0DcBWqa2Qc5xzpscCWaggf1Gn04tGjDyN"
-consumer_key = "g2kQPotuZUTZS0rWL6oSJElNU"
-consumer_secret = "GvNi2iFQoF9XdqlX1f7hCwKjpLGvg0CbtZsCmAQhfOS8AIFXFy"
+access_token = ""
+access_token_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 class StdOutListener(StreamListener):
 
